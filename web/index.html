@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <style> 
+
+  h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-left: 6em;
+  
+}
+img.avatar {
+  width: 72%;
+  border-radius: 90%;
+  
+}
+
+.outerDiv
+			{
+				background-color: #006699;
+				
+				height: 600px;
+				width: 100%;
+				margin: 0px auto;
+				padding: 5px;
+			}
+			.leftDiv
+			{
+				
+				 text-align: center;
+                                 margin-top:5%;
+				height: 53px;
+				width: 50%;
+				float: left;
+			}
+			.rightDiv
+			{
+				background-color: darkkhaki;
+				
+				height: 250px;
+				width: 450px;
+				float: right;
+                                margin-right:100px;
+                                margin-top:170px;
+			}	
+                       
+                        .btn1{
+                            width: 100px;
+                            height: 40px;
+                            margin-left: 42px;
+                            color: #006699;
+                            text-align: center;
+                            
+                        }
+                        
+  </style>
+    </head>
+    <body>
+        <form method="GET" action="LoginRegister">
+            <div class="outerDiv">
+                
+            <div class="leftDiv">
+                <img src="images/logo1.jpg" alt="Avatar" class="avatar">
+            </div>
+             <div class="rightDiv">
+                <table  >
+                <tr>
+                    <td ><h3>&nbsp;&nbsp; Welcome to VOA</h3> </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;Username :</td>
+                    <td> <input type="text" name="uname"></td>
+                </tr> 
+                <tr >
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;Password  :</td>
+                    <td> <input type="text" name="paasswd"></td>
+                </tr> 
+                <tr>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                   <td></td>
+                </tr>
+                 <tr>
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                   <td></td>
+                </tr>
+                <tr>
+                     <td>
+                         <div class="btn1"><input type="submit" name="submit" class="btn1" value="Login"></div>
+                         </td>
+                      <td> <a href="registration.jsp">Registration</a></td>
+                </tr> 
+             
+           
+            </table>
+           
+            </div>   
+            </div>
+        </form>
+    </body>
+</html>
